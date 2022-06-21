@@ -1,0 +1,49 @@
+.teambox {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 269px 1fr 1fr auto;
+  width: 213px;
+  height: 380px;
+  gap: 10px;
+}
+.team-img {
+  max-width: 100%;
+  height: 269px;
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid #7c7c7c;
+  transition: all 0.3s ease-in-out;
+}
+.teambox h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Atik", "sans-serif" !important;
+}
+.teambox p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #a4a7af;
+}
+.teambox:hover .icon {
+  filter: brightness(1.8);
+}
+.teambox:hover .team-img {
+  border-color: white;
+}
+.icon {
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 775px) {
+  .teambox {
+    width: 156px;
+    height: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 201px 1fr 1fr auto;
+  }
+  .team-img {
+    max-width: 156px;
+    height: 201px;
+  }
+}

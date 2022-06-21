@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 30px;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #7c7c7c;
+}
+.social-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+@media screen and (max-width: 826px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer p {
+    order: 3;
+  }
+  .social-div {
+    order: 1;
+  }
+  .logo-foot {
+    order: 2;
+  }
+}

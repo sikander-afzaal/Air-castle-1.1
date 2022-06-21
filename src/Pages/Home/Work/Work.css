@@ -1,0 +1,45 @@
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding-inline: 24px;
+  margin-top: 224px;
+}
+.work video {
+  max-width: 540px;
+  width: 100%;
+  object-fit: contain;
+}
+.work h2,
+.work p,
+.work h1 {
+  text-align: center;
+  max-width: 780px;
+}
+@media screen and (max-width: 700px) {
+  .work h2,
+  .work p,
+  .work h1 {
+    text-align: left;
+  }
+  .work h2 {
+    order: 2;
+  }
+  .work h1 {
+    order: 3;
+  }
+  .work p {
+    order: 4;
+  }
+  .work video {
+    margin-bottom: 40px;
+    order: 1;
+  }
+  .work {
+    margin-top: 124px;
+    align-items: flex-start;
+  }
+}

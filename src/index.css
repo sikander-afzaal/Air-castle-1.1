@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Atik500", "sans-serif";
+}
+@font-face {
+  font-family: "Atik500";
+  src: url("/src/Assets/Aircastle\ Fonts/Aktiv Grotesk/Aktiv Grotesk Ex Medium.ttf");
+}
+@font-face {
+  font-family: "Atik";
+  src: url("/src/Assets/Aircastle\ Fonts/Aktiv Grotesk/AktivGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: "Atik300";
+  src: url("/src/Assets/Aircastle\ Fonts/Aktiv Grotesk/AktivGrotesk-Light.otf");
+}
+@font-face {
+  font-family: "Gestalt";
+  src: url("/src/Assets/Aircastle\ Fonts/Gestalt-HTF-Linear-Light.otf");
+}
+p {
+  font-family: "Atik300", "sans-serif" !important;
+}
+.gest {
+  font-family: "Gestalt", "sans-serif" !important;
+}
+body {
+  background-color: black;
+}

@@ -11,18 +11,18 @@ function Footer() {
       <p>© 2022 Aircastle. All Rights Reserved</p>
       <img src={logo} alt="" className="logo-foot" />
       <div className="social-div">
-       <!---<a href="..." target={"blank"}>
+        {/* <a href="..." target={"blank"}>
           <img src={discord} alt="" />
-        </a>--->
+        </a>
         <a href="https://www.linkedin.com/company/aircastle-dao/" target={"blank"}>
           <img src={linkedin} alt="" />
         </a>
-        <!---<a href="..." target={"blank"}>
+        <a href="..." target={"blank"}>
           <img src={insta} alt="" />
-        </a>--->
-        <!---<a href="..." target={"blank"}>
+        </a>
+        <a href="..." target={"blank"}>
           <img src={twitter} alt="" />
-        </a>--->
+        </a> */}
       </div>
     </div>
   );

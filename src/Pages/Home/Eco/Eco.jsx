@@ -12,11 +12,11 @@ function Eco() {
       <div className="top-eco">
         <h2 className="top-sub gest">ecosystem</h2>
         <h1 className="main-head">Aircastle Ecosystem</h1>
-       <!--- <p className="desc">
+        {/* <p className="desc">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis
-        </p>--->
+        </p> */}
       </div>
       <div className="eco-grid">
         <div className="col-div col-div1">
